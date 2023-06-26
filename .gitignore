@@ -1,0 +1,52 @@
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

@@ -1,0 +1,12 @@
+site_name: Documentación de la aplicación
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
+
+nav:
+  - Índice: index.md
+  - ejemploAsyncioAPI.md
+  - ejemploAsyncioAPImain.md
